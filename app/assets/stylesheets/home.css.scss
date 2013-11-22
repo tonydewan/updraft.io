@@ -3,9 +3,12 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import url(http://fonts.googleapis.com/css?family=Lilita+One);
 
-body {
+html{
   font-family: Helvetica Neue, Helvetica, arial, sans-serif;
-  background-color: #8acbf9;
+  @include background-image( linear-gradient(#8acbf9, #b9def9));
+  //background: #67b8c9 url('bg-sm.png') no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
 h1 {
@@ -27,11 +30,10 @@ textarea {
   height: 400px;
   display: block;
   margin: 0 auto;
-  border: 0;
   font-size: 14px;
   padding: 20px;
-  background-color: #f9f9f9;
-  @include box-shadow(0 1px 0 rgba(255,255,255,.51), inset 0 1px 0 rgba(1,0,0,.29), inset 0 0 5px rgba(0,0,0,.11));
+  background-color: rgba(249, 249, 249, .8);
+  border: 1px solid #ccc;
 }
 
 input[type=submit]{
