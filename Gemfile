@@ -4,11 +4,13 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.1'
 gem 'pg'
 gem 'sass-rails', '~> 4.0.0'
+gem 'bourbon'
 gem 'haml'
 gem 'redcarpet'
 gem 'doc_raptor'
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'pry', groups: [:development, :test]
+gem 'sqlite3', groups: [:development, :test]
 
 gem 'rails_12factor', group: :production
 

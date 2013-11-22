@@ -1,3 +1,64 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(http://fonts.googleapis.com/css?family=Lilita+One);
+
+body {
+  font-family: Helvetica Neue, Helvetica, arial, sans-serif;
+  background-color: #8acbf9;
+}
+
+h1 {
+  font-family: Lilita One, Helvetica, arial, sans-serif;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 15px;
+  color: #efefef;
+  text-shadow: 0 1px 3px rgba(1,0,0,.84);
+}
+
+.lede {
+  text-align: center;
+  margin-top: 0;
+}
+
+textarea {
+  width: 90%;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+  border: 0;
+  font-size: 14px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  @include box-shadow(0 1px 0 rgba(255,255,255,.51), inset 0 1px 0 rgba(1,0,0,.29), inset 0 0 5px rgba(0,0,0,.11));
+}
+
+input[type=submit]{
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  background-color: #a13838;
+  @include box-shadow(2px 3px 0 1px #671818);
+
+  display: block;
+  float: right;
+  margin-top: 20px;
+  margin-right: 5%;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 11px;
+
+  a {
+    font-weight: bold;
+    color: #0471be;
+  }
+
+  .docraptor {
+    line-height: 3.0;
+  }
+}
