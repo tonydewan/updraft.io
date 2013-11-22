@@ -1,0 +1,1 @@
+DocRaptor.api_key ENV['DOC_RAPTOR_KEY']

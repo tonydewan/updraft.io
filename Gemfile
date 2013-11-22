@@ -10,6 +10,9 @@ gem 'sqlite3'
 gem 'sass-rails', '~> 4.0.0'
 gem 'haml'
 gem 'redcarpet'
+gem 'doc_raptor'
+gem 'dotenv-rails', :groups => [:development, :test]
+gem 'pry', :groups => [:development, :test]
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
