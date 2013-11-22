@@ -1,4 +1,6 @@
 UpdraftIo::Application.routes.draw do
+  root 'home#index'
+  post 'convert' => 'home#convert', :as => :convert
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

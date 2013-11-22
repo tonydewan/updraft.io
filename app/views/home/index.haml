@@ -1,0 +1,8 @@
+%h2 UPDRAFT
+
+%p markdown to PDF
+
+= form_tag convert_path, method: :post do
+  
+  = text_area_tag :markdown
+  = submit_tag 'turn this markdown into a PDF now'
